@@ -13,7 +13,7 @@ Possible command-line arguments are:
 
 import sys
 
-action = sys.argv[0]
+action = sys.argv[1]
 if action == "install":
     install_package()
 if action == "run":

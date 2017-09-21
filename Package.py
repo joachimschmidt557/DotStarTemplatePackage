@@ -13,12 +13,6 @@ Possible command-line arguments are:
 
 import sys
 
-action = sys.argv[1]
-if action == "install":
-    install_package()
-if action == "run":
-    run_package()
-
 def install_package():
     """
     This function contains all necessary information for
@@ -28,3 +22,9 @@ def install_package():
 
 def run_package():
     print("In run package")
+
+action = sys.argv[1]
+if action == "install":
+    install_package()
+if action == "run":
+    run_package()

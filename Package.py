@@ -16,10 +16,15 @@ import sys
 action = sys.argv[0]
 if action == "install":
     install_package()
+if action == "run":
+    run_package()
 
 def install_package():
     """
     This function contains all necessary information for
     installing the package
     """
-    pass
+    print("In installing")
+
+def run_package():
+    print("In run package")

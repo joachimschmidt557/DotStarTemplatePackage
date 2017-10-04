@@ -1,7 +1,7 @@
 {
     "Basic Package Information":
     {
-        "Name": "dotstartemplate"
+        "Name": "dotstartemplatepackage"
     },
     "Author information":
     {
@@ -12,8 +12,8 @@
     },
     "Application Information": 
     {
-        "Name": "Test",
-        "Friendly Name": "DotStar",
+        "Name": "DotStarTemplatePackage",
+        "Friendly Name": "DotStar Template Package",
         "Description": "A simple testing package to check wheter DotStar works",
         "Version": "1.0.0",
         "Version System": "MajorMinor"

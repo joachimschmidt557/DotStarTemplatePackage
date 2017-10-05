@@ -13,5 +13,5 @@ Application Information:
     Version System: "MajorMinor"
 Dependencies:
     - 
-        - Name: "Python3"
-        - File: "Python3.star"
+        Name: "Python3"
+        File: "Python3.star"

@@ -1,5 +1,10 @@
 Basic Package Information:
     Name: "dotstartemplatepackage"
+Compilation Information:
+    Ignore files:
+        - .git*
+        - .vscode*
+        - DotStarTemplatePackage.star
 Author information:
     Name: "joachimschmidt557"
     Company: ""

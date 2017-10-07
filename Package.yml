@@ -11,6 +11,11 @@ Application Information:
     Description: "A simple testing package to check wheter DotStar works"
     Version: "1.0.0"
     Version System: "MajorMinor"
+    Supported Platforms:
+        - MacOS
+        - Win32
+        - Win64
+        - Linux
 Dependencies:
     - 
         Name: "Python3"

@@ -1,7 +1,12 @@
+# This file contains all necessary information for this package
+#   (when contained in a .star file)
+# Plus, this file also doubles as compilation instruction
+# To compile, just run "dotstar Package.yml"
 Basic Package Information:
     Name: "dotstartemplatepackage"
 Compilation Information:
     Ignore files:
+        # Which files should DotStar ignore when compiling?
         - .git*
         - .vscode*
         - DotStarTemplatePackage.star
@@ -13,7 +18,7 @@ Author information:
 Application Information: 
     Name: "DotStarTemplatePackage"
     Friendly Name: "DotStar Template Package"
-    Description: "A simple testing package to check wheter DotStar works"
+    Description: "A simple testing package to check whether DotStar works"
     Version: "1.0.0"
     Version System: "MajorMinor"
     Supported Platforms:

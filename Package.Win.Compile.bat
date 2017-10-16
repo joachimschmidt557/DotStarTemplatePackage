@@ -1,5 +1,5 @@
 @echo off
-rem This script will be called when compile the package
+rem This script will be called when compiling the package
 rem on Windows
 
 echo Test - Compile on Windows

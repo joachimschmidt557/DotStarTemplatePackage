@@ -2,11 +2,13 @@
 #   (when contained in a .star file)
 # Plus, this file also doubles as compilation instruction
 # To compile, just run "dotstar Package.yml"
+
 Basic Package Information:
     Name: "dotstartemplatepackage"
 Compilation Information:
     Ignore files:
         # Which files should DotStar ignore when compiling?
+        # You can use wildcards (such as *)
         - .git*
         - .vscode*
         - DotStarTemplatePackage.star
@@ -16,17 +18,27 @@ Author information:
     Website: "https://github.com/joachimschmidt557"
     Email: ""
 Application Information: 
+    # The unique name of the package, preferably undercase letters, numbers
+    # and hyphens only
     Name: "DotStarTemplatePackage"
+
+    # The "real name" of the package. Feel free to use any characters here
     Friendly Name: "DotStar Template Package"
+
+    # A short description
     Description: "A simple testing package to check whether DotStar works"
-    Version: "1.0.0"
-    Version System: "MajorMinor"
+
+    # Version of the package
+    Version: "1.0.1"
+
+    # Versioning system
+    Version System: "SemVer"
+
+    # List of supported platforms
     Supported Platforms:
-        - MacOS
+        - macOS
         - Win32
         - Win64
         - Linux
 Dependencies:
-    - 
-        Name: "Python3"
-        File: "Python3.star"
+    

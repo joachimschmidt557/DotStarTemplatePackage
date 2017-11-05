@@ -4,7 +4,24 @@
 # To compile, just run "dotstar Package.yml"
 
 Basic Package Information:
-    Name: "dotstartemplatepackage"
+    ID: "dotstartemplatepackage"
+    Actions:
+        # A list of possible actions that can be utilized against
+        # this package.
+        # 
+        # DEFAULT ACTIONS:
+        # - Run
+        # - Install
+        # - Uninstall
+        # - Compile
+        # 
+        # Each action triggers a script. For example: Running on Windows
+        # triggers `Package.Win.Run.bat`. 
+        # The syntax for the script triggered is:
+        #       Package.{Platform}.{Action}.{bat/ps1/sh}
+        # 
+        # See section `Platforms` for a detailed list of Platforms
+        - Action1
 Compilation Information:
     Ignore files:
         # Which files should DotStar ignore when compiling?
@@ -29,7 +46,7 @@ Application Information:
     Description: "A simple testing package to check whether DotStar works"
 
     # Version of the package
-    Version: "1.0.1"
+    Version: "1.0.2"
 
     # Versioning system
     Version System: "SemVer"
